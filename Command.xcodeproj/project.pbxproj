@@ -13,6 +13,8 @@
 		147111AD2A5E04DB0079942A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147111AB2A5E04DB0079942A /* Main.storyboard */; };
 		147111AF2A5E04DC0079942A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147111AE2A5E04DC0079942A /* Assets.xcassets */; };
 		147111B22A5E04DC0079942A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147111B02A5E04DC0079942A /* LaunchScreen.storyboard */; };
+		147111BA2A5E06AF0079942A /*  BaseCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147111B92A5E06AF0079942A /*  BaseCommand.swift */; };
+		147111BC2A5E08610079942A /* CommandExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147111BB2A5E08610079942A /* CommandExecutor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		147111AE2A5E04DC0079942A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		147111B12A5E04DC0079942A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		147111B32A5E04DC0079942A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147111B92A5E06AF0079942A /*  BaseCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " BaseCommand.swift"; sourceTree = "<group>"; };
+		147111BB2A5E08610079942A /* CommandExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandExecutor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				147111A52A5E04DB0079942A /* AppDelegate.swift */,
 				147111A72A5E04DB0079942A /* SceneDelegate.swift */,
 				147111A92A5E04DB0079942A /* ViewController.swift */,
+				147111B92A5E06AF0079942A /*  BaseCommand.swift */,
+				147111BB2A5E08610079942A /* CommandExecutor.swift */,
 				147111AB2A5E04DB0079942A /* Main.storyboard */,
 				147111AE2A5E04DC0079942A /* Assets.xcassets */,
 				147111B02A5E04DC0079942A /* LaunchScreen.storyboard */,
@@ -141,6 +147,8 @@
 				147111AA2A5E04DB0079942A /* ViewController.swift in Sources */,
 				147111A62A5E04DB0079942A /* AppDelegate.swift in Sources */,
 				147111A82A5E04DB0079942A /* SceneDelegate.swift in Sources */,
+				147111BA2A5E06AF0079942A /*  BaseCommand.swift in Sources */,
+				147111BC2A5E08610079942A /* CommandExecutor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
